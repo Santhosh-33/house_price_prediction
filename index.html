@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Data</title>
+</head>
+<body>
+	<h1>Real Estate Data</h1>
+	<form method="post" action="{{ url_for('index') }}">
+	
+		<label for="age">House Age:</label>
+		<input type="number" id="age" name="age"><br><br>
+		
+		<label for="distance">Distance to MRT Station:</label>
+		<input type="number" id="distance" name="distance"><br><br>
+		
+		<label for="stores">Number of Convenience Stores:</label>
+		<input type="number" id="stores" name="stores"><br><br>
+		
+		<label for="latitude">Latitude:</label>
+		<input type="number" id="latitude" name="latitude"><br><br>
+		
+		<label for="longitude">Longitude:</label>
+		<input type="number" id="longitude" name="longitude"><br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
